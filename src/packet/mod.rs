@@ -28,6 +28,7 @@ impl ProcessedPacket {
     }
 }
 
+#[derive(Copy, Clone)]
 pub struct SphinxPacket {
     pub header: header::SphinxHeader,
     pub payload: Payload,
